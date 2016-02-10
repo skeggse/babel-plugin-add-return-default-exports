@@ -5,5 +5,8 @@ node_modules
 # Optional npm cache directory
 .npm
 
+# Optional npm config
+.npmrc
+
 # Editor files
 *~
