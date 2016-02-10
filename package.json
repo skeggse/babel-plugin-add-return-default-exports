@@ -1,17 +1,26 @@
 {
   "name": "babel-plugin-add-return-default-exports",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Adds return statement after export with default export as returned value. To use with AMD modules and requirejs loader",
   "main": "lib",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-template": "^6.5.0",
+    "lodash": "^4.3.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afoninv/babel-plugin-add-return-default-exports.git"
   },
   "keywords": [
-    "babel-plugin"
+    "babel-plugin",
+    "AMD",
+    "requirejs"
   ],
   "author": "Vitaly Afonin <afoninv@mail.ru>",
   "license": "MIT",
