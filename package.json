@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-add-return-exports",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds return statement after export with exports as returned value. To use with AMD modules and requirejs loader",
   "main": "lib",
   "files": [
