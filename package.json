@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-add-return-default-exports",
+  "name": "babel-plugin-add-return-exports",
   "version": "0.1.0",
-  "description": "Adds return statement after export with default export as returned value. To use with AMD modules and requirejs loader",
+  "description": "Adds return statement after export with exports as returned value. To use with AMD modules and requirejs loader",
   "main": "lib",
   "files": [
     "lib"
@@ -10,22 +10,21 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "babel-template": "^6.5.0",
-    "lodash": "^4.3.0"
+    "babel-template": "^6.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afoninv/babel-plugin-add-return-default-exports.git"
+    "url": "git+https://github.com/skeggse/babel-plugin-add-return-exports.git"
   },
   "keywords": [
     "babel-plugin",
     "AMD",
     "requirejs"
   ],
-  "author": "Vitaly Afonin <afoninv@mail.ru>",
+  "author": "Eli Skeggs <eli@mixmax.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afoninv/babel-plugin-add-return-default-exports/issues"
+    "url": "https://github.com/skeggse/babel-plugin-add-return-exports/issues"
   },
-  "homepage": "https://github.com/afoninv/babel-plugin-add-return-default-exports#readme"
+  "homepage": "https://github.com/skeggse/babel-plugin-add-return-exports#readme"
 }
